@@ -1,4 +1,8 @@
 package com.example.tareas.repository;
 
-public class AccountRepository {
+import com.example.tareas.model.Account;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public class AccountRepository extends JpaRepository<Account,Long> {
+
 }
